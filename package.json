@@ -1,0 +1,27 @@
+{
+  "name": "postpartum-planner-service",
+  "version": "1.0.0",
+  "description": "用于代理deepSeek的api接口调用",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "morgan": "^1.10.0",
+    "helmet": "^7.0.0",
+    "rate-limiter-flexible": "^2.4.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
