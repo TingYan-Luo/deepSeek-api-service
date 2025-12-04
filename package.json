@@ -1,5 +1,5 @@
 {
-  "name": "postpartum-planner-service",
+  "name": "deepSeek-api-service",
   "version": "1.0.0",
   "description": "用于代理deepSeek的api接口调用",
   "main": "index.js",
